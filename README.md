@@ -1,5 +1,7 @@
 # DailyFi
 
+## Deployed Link - https://voluble-tiramisu-207391.netlify.app/
+
 ## Project Setup
 
 1.  Clone this repository to your local machine.
