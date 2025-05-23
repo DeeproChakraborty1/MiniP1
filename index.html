@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyFi-The Daily Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>DailyFi - The Daily Planner</h1>
+    </header>
+
+    <main class="app-container">
+        <section class="add-task">
+            <h2>Add New Task</h2>
+            <form id="addTaskForm">
+                <div class="input-group">
+                    <label for="newTask">Task:</label>
+                    <input type="text" id="newTask" placeholder="Enter task description" required>
+                </div>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+
+        <section class="search-tasks">
+            <h2>Search Tasks</h2>
+            <div class="input-group">
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Filter tasks">
+            </div>
+        </section>
+
+        <section class="task-list-container">
+            <h2>Tasks</h2>
+            <ul id="taskList" class="task-list">
+                </ul>
+        </section>
+
+        <button id="backToTopBtn" class="back-to-top hidden">Back to Top</button>
+
+    </main>
+    <footer>
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h2>About Us</h2>
+            <p>I am a passionate Front-End Developer dedicated to creating amazing web experiences. My goal is to provide high-quality solutions and user-friendly applications.</p>
+            <div class="social-links">
+                <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-section links">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h2>Contact Info</h2>
+            <p><i class="fas fa-map-marker-alt"></i> 743122 Barrackpore, Kolkata, India</p>
+            <p><i class="fas fa-envelope"></i> deepro@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 91-9830020355</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 ft37_572. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+</footer>
+    <script src="js/utils.js" type="module"></script>
+    <script src="js/storage.js" type="module"></script>
+    <script src="js/taskManager.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
